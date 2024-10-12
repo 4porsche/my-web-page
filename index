@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample webpage for validation and accessibility testing.">
+    <meta name="keywords" content="HTML, Accessibility, Validation">
+    <meta name="author" content="Your Name">
+    <title>Accessible Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            margin-top: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        ul {
+            list-style-type: square;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Accessible Webpage</h1>
+</header>
+
+<main>
+    <section>
+        <h2>About This Page</h2>
+        <p>This page is designed to meet HTML validation and accessibility standards. It includes a variety of elements such as headings, images, and lists.</p>
+    </section>
+
+    <section>
+        <h2>Image Section</h2>
+        <img src="https://www.gddt.edu.vn/media/6/2024/01/logo-dai-hoc-fpt.png" alt="A description of the image for accessibility">
+        <p>Here is an example image with alt text for accessibility.</p>
+    </section>
+
+    <section>
+        <h2>Key Features</h2>
+        <ul>
+            <li>Accessible HTML structure</li>
+            <li>Responsive design</li>
+            <li>Validation-ready</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
